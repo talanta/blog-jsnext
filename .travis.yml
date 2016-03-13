@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+  - "5"
+branches:
+  only:
+  - master
+before_install:
+- git clone https://github.com/hexojs/hexo-theme-landscape themes/landscape
+- npm install -g hexo
+- npm install
+- cd themes/landscape
+- npm install
+- cd ../../
+before_script:
+- git config --global user.name 'Andrei TV'
+- git config --global user.email 'a.talviy@gmail.com'
+- sed -i'' "s~git@github.com:talanta/blog-jsnext.git~https://${GH_TOKEN}:x-oauth-basic@github.com/talanta/blog-jsnext.git~"
+  _config.yml
+install:
+- hexo generate
+script:
+- hexo deploy
+env:
+  global:
+    secure: Ig86Cga5AiBv/InFBRhsxtgKrsHoY94kq0+35HKAj+zRkPOVDfdZy24H+EBzHiKsutvazNi4EX1eP2j2CerV1M0jY37uR9dPopCExTXKDqtpaFs9ubwVZRMvSv6U3A7SXZckW6aVj5ipi0qgmKOc2mZ/QFQMN/rqlA6zaViml3bMsT1qVL1h9d+v6TbtSXs/Le7hMzoGD6SJzv3QUvMqtaARzOlFihs3fhVOCj7/afk0ns0shYt6WR3651Km9TgXhNWl3VXwXxVwb4jE28xzJcfCrcYcnic+ZS4ug7QqXroxLhHWO91ddnb7Mr+wsx+QUYpnvuIFbtam6e/S/PNNnPC79SXAUjLFvc1PypdsOrFadgVbJ1eBvzAKZEyQUrN7IIe895MJi4fVKTKIZDourn+CbHeIiW4y6wn0DRK41onRpiniOlIFdqhSJUf7Gro6AlsZQJUGFyTbPOoye4BS6wILepnycchR6Rak5PekPWlxI1LmKEJxRRcGOSUjQa29R841rE0LsVoQXBovIWs1WqkupJAunBDQvkXKI1ei1DwoRiBCs2wN4UzDqmYI6G7Cjy8OxracxhuB8kbJxp8G14RFGF347Nz4hs1lwTK2zNagiLuyjr+c9l7OvktaT9mnLN1aD0tLPx4mvlUvxXkRNdoKkOAifK0ZwUBkvF70pYY=
