@@ -8,7 +8,10 @@ subtitle: Le meilleur du Javascript moderne
 description: Découvrez des
 author: Andrei TV
 language: fr
-timezone:
+timezone: Europe/Paris
+avatar: /blog/avatar.png
+location: 'Paris, France'
+follow: https://twitter.com/talant_a
 
 deploy:
   type: git
