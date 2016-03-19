@@ -1,5 +1,5 @@
 ---
-title: Les incontournables du JS n°002
+title: Les incontournables du JS no002
 date: 2016-03-18 18:00:00
 tags: javascript, incontournables
 ---
