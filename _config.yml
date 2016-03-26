@@ -13,6 +13,10 @@ avatar: /blog/avatar.png
 location: 'Paris, France'
 follow: https://twitter.com/talant_a
 
+social:
+    twitter: https://twitter.com/talant_a
+google_analytics: UA-75606656-1
+
 deploy:
   type: git
   repo: git@github.com:talanta/blog-jsnext.git
