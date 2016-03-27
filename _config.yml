@@ -15,7 +15,7 @@ follow: https://twitter.com/talant_a
 
 social:
     twitter: https://twitter.com/talant_a
-google_analytics: UA-75606656-1
+google_analytics:
 
 deploy:
   type: git
@@ -68,7 +68,7 @@ time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 10
+per_page: 5
 pagination_dir: page
 
 # Extensions

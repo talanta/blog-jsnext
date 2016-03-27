@@ -6,11 +6,14 @@ branches:
   - master
 before_install:
 - git clone https://github.com/hexojs/hexo-theme-landscape themes/landscape
+- sed -i'' "s~google_analytics:~google_analytics:\ UA-75606656-1~" themes/landscape/_config.yml
 - npm install -g hexo
 - npm install
 - cd themes/landscape
 - npm install
 - cd ../../
+
+
 before_script:
 - git config --global user.name 'Andrei TV'
 - git config --global user.email 'a.talviy@gmail.com'
