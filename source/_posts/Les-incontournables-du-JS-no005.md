@@ -18,7 +18,7 @@ Voici le cru de la semaine :
 
 [Let's Build a Redux Powered React Application](https://stormpath.com/blog/build-a-redux-powered-react-application/) : J'aimerai voir aussi la version Angular.  
 
-[React Native Tutorial: Building Apps with JavaScript]() : Apprendre une fois et appliquer partout.
+[React Native Tutorial: Building Apps with JavaScript](https://www.raywenderlich.com/126063/react-native-tutorial) : Apprendre une fois et appliquer partout.
 
 ### (Re)Découvertes
 
