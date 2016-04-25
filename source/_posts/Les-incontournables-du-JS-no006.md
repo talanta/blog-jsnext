@@ -1,7 +1,7 @@
 ---
 title: Les incontournables du JS no006
 date: 2016-04-15 22:00:00
-tags:
+tags: javascript, incontournables
 ---
 Découvrez les infos, tutos et astuces sur le meilleur du développement Javascript.  
 Voici le cru de la semaine :  
