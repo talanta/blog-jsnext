@@ -9,7 +9,9 @@ Voici le cru de la semaine :
 
 ### Infos
 
-[NgConf 2016 Keynote on Angular 2](http://www.barbarianmeetscoding.com/blog/2016/05/05/a-super-quick-summary-of-the-ngconf-2016-keynote-on-angular-2/) : Les vidéos de la conf à voir absoluement sur youtube.  
+[NgConf 2016 Keynote on Angular 2](http://www.barbarianmeetscoding.com/blog/2016/05/05/a-super-quick-summary-of-the-ngconf-2016-keynote-on-angular-2/) : Les vidéos de la conf à voir absolument.  
+
+[NgConf 2016 Youtube playlist](https://www.youtube.com/playlist?list=PLOETEcp3DkCq788xapkP_OU-78jhTf68j)
 
 [NativeScript 2.0 - the best way to build cross-platform native mobile apps](https://www.nativescript.org/blog/details/nativescript-2.0---the-best-way-to-build-cross-platform-native-mobile-apps) : Applications mobiles complètement natives avec Angular 2.
 
