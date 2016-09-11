@@ -1,7 +1,7 @@
 ---
 title: Les incontournables du JS no026
 tags: 'typescript, ng2, react'
-date: 2016-08-27 22:00:00
+date: 2016-09-04 22:00:00
 ---
 
 Découvrez les infos, tutos et astuces sur le meilleur du développement Javascript.  
