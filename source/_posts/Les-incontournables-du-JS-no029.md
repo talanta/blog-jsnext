@@ -1,5 +1,5 @@
 ---
-title: Les incontournables du JS no028
+title: Les incontournables du JS no029
 tags: 'nodejs, ng2, webpack'
 date: 2016-10-02 12:00:00
 ---
