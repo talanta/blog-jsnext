@@ -1,6 +1,6 @@
 ---
 title: Les incontournables du JS no031
-tags: 'ng2, ns, ionic, react'
+tags: [ng2, ns, ionic, react]
 date: 2016-11-19 18:00:00
 ---
 
